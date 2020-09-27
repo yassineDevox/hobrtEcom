@@ -72,11 +72,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $active_group = 'default';
 $query_builder = TRUE;
+
 $db['default'] = array(
-	'dsn'	=> 'mysql:host=localhost; dbname=nx;',
+	'dsn'	=> 'mysql:host=localhost; dbname=nx; charset=utf8;',
 	'hostname' => '',
 	'username' => 'root',
-	'password' => 'a',
+	'password' => '',
 	'database' => '',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
