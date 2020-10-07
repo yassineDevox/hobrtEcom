@@ -29,7 +29,7 @@
 												<?php if($p->discount != 0){ ?>
 												<span><?php echo $p->price; ?>DH</span> <?php echo floor($p->price - ($p->price * $p->discount / 100)); ?>DH
 												<?php }else{ ?>
-													<?php echo $p->price; ?>DH
+													 إبتدأ من<?php echo " ".$p->price; ?>DH
 												<?php } ?>
 
 												</ins>
